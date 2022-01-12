@@ -86,10 +86,27 @@ SELECT ename, job, sal , sal*12 AS annsal
  
  
  --LIKE  ~와같은 (조건 검색)
- --J 가 들어가는 이름 추출
+ --동일한 언더바 의 글자길이 __RD 이면 XXRD인 사람(%의 위치에 따라다름) 
  SELECT ename, job, sal , sal*12 AS annsal
  FROM emp 
- WHERE ename LIKE 'J%';
+ WHERE ename LIKE '__RD' ;                     -- J% ,%ER, %E%, __RD
+
+
+ --NULL 인것을 추천
+SELECT ename, job, sal, comm
+FROM emp
+WHERE comm IS NULL;
+    
+ --NULL 아닌것을 추출
+SELECT ename, job, sal, comm
+FROM emp
+WHERE comm IS NOT NULL;
+    
+ --집합
+ SELECT empno, ename, job FROM emp
+ WHERE comm IS NOT NULL
+ UNION ALL
+ SELECT deptno, dname, loc FROM dept;
  
  
  

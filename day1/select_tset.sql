@@ -29,3 +29,29 @@ WHERE job = 'CLERK';
 SELECT* FROM emp
 WHERE sal >=1500 
     
+--NULL 인것을 추천
+SELECT ename, job, sal, comm
+FROM emp
+WHERE comm IS NULL;
+    
+ --NULL 아닌것을 추출
+SELECT ename, job, sal, comm
+FROM emp
+WHERE comm IS NOT NULL;
+    
+ --집합
+ SELECT empno, ename, job FROM emp
+ WHERE comm IS NOT NULL
+ UNION ALL
+ SELECT deptno, dname, loc FROM dept;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
