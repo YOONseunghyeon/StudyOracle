@@ -1,12 +1,15 @@
 --행단위로 조회하는 셀렉션
 SELECT*FROM emp
 WHERE sal =5000;
+
 --직업이 CLERK인 사람 셀렉션
 SELECT* FROM emp
 WHERE job ='CLERK';
+
 --COMM이 0이거나 NULL인 사람추출
 SELECT* FROM emp
 WHERE  comm = 0 OR comm IS NULL;
+
 --보너스 NULL이고 직업이 ANALYST인 사람만 셀렉션
 SELECT* FROM emp
 WHERE  comm IS NULL AND job = 'ANALYST';
