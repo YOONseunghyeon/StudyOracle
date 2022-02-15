@@ -33,12 +33,12 @@ Oracle 학습 리포지토리
 ### 5일차 학습
 - BETWEEN
 - WHERE
- - IN (Select)
- - LIKE '%'
+  - IN (Select)
+  - LIKE '%'
 - SELETE
- - || ,CONCAT
- - LOWER , UPPER, INITCAP
- - REPLACE
- - SYSDATE ('YYYY-MM-YY')
- - to char
- - ROUND, AVG
+  - || ,CONCAT
+  - LOWER , UPPER, INITCAP
+  - REPLACE
+  - SYSDATE ('YYYY-MM-YY')
+  - to char
+  - ROUND, AVG
