@@ -42,3 +42,16 @@ Oracle 학습 리포지토리
   - SYSDATE ('YYYY-MM-YY')
   - to char
   - ROUND, AVG
+
+### 6일차 학습
+- 데이터에서 Table 데이터 조회
+ - 최대 최소값 (Max-Min)
+ - Count 
+ - Group by ~ Having 
+ - Substr
+ - Decode
+ - Case~When~Then~Else~End
+
+### 7일차 학습
+-  Exists
+-
