@@ -54,4 +54,12 @@ Oracle 학습 리포지토리
 
 ### 7일차 학습
 -  Exists
--
+- Inner Join ( 일반방식, 국제표준방식)
+
+### 8일차 학습
+- Substr
+- To_Char
+- Ansi Outer Join
+- 서브쿼리
+- NVL(NULL값 제거)
+- Join Group By
